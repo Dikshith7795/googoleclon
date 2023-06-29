@@ -1,0 +1,48 @@
+.home {
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+
+}
+.home_header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+}
+.home_headerleft{
+    display: flex;
+    align-items: center;
+    
+}
+.home_headerleft p {
+    margin-left: 20px;
+    font-size: 15px;
+}
+.home_headeright {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.home_headeright p {
+    margin-right: 20px;
+    font-size: 15px;
+}
+.home_headeright .appsicon{
+    padding-right: 10px;
+}
+.home_body{
+ 
+    display: flex;
+    margin-top: 7%;
+
+    flex-direction: column;
+
+}
+.home_body>img{
+    /* object-fit:none; */
+    object-fit:contain;
+    height:92px;
+    
+}
